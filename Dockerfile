@@ -31,4 +31,4 @@ WORKDIR /app
 # Copy only the published output from the build stage
 COPY --from=build /app/publish .
 # Run the application when the container starts
-ENTRYPOINT ["dotnet", "learning-docker.dll"]
+ENTRYPOINT ["dotnet", "learning_docker.dll"]
