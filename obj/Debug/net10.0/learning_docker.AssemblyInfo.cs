@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("learning_docker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e32561403a6f1c8d787b739cfc788637a6476af1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2817d9861070cbb1f7b93e509ae1053cee81b3b")]
 [assembly: System.Reflection.AssemblyProductAttribute("learning_docker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("learning_docker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
