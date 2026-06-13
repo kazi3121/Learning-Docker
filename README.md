@@ -1,4 +1,4 @@
-# Class 19 — Dockerizing a .NET API with PostgreSQL
+# Dockerizing a .NET API with PostgreSQL
 
 A minimal ASP.NET Core Web API (Todo CRUD) containerized with Docker and orchestrated with Docker Compose alongside a PostgreSQL database and pgAdmin.
 
