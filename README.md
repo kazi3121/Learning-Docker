@@ -165,16 +165,3 @@ docker run -d --name todo-container -p 8080:8080 todo-app
 
 ---
 
-## Commit History
-
-### `494243b` — Add initial .NET API with non-multistage Dockerfile
-Sets up the project from scratch: minimal ASP.NET Core Web API with in-memory Todo endpoints, a single-stage Dockerfile using the full SDK image, project config files, and a `.gitignore` for .NET artifacts.
-
-### `93f3792` — Optimize Dockerfile with multi-stage build
-Refactors the Dockerfile into two stages — a **build stage** (SDK image) that compiles and publishes the app, and a **runtime stage** (lightweight ASP.NET image) that only contains the published output. Significantly reduces the final image size.
-
-### `6944476` — Add Docker Compose with PostgreSQL and pgAdmin
-Replaces the in-memory store with a real PostgreSQL database via EF Core. Adds `docker-compose.yml` with three services (`app`, `db`, `pgadmin`), EF Core migrations for the initial schema, and connection string config.
-
-### `0aef41c` — Configure Docker Compose with a custom bridge network
-Moves all services onto a named bridge network (`todo_network`) so containers can communicate by service name. Updates the connection string and port config, and expands `docs.txt` with common Compose commands and service URLs.
